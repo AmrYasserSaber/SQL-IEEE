@@ -1,0 +1,5 @@
+# SQL-IEEE
+
+select CITY from STATION
+WHERE CITY NOT RLIKE '^[aeiouAEIOU].*$'
+GROUP BY CITY;

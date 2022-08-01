@@ -1,0 +1,12 @@
+# SQL-IEEE
+
+select CITY,LENGTH(CITY)
+from STATION
+order by LENGTH(CITY),CITY
+LIMIT 1 ;
+
+
+select CITY,LENGTH(CITY) 
+from STATION 
+order by LENGTH(CITY) desc,CITY
+LIMIT 1 ;

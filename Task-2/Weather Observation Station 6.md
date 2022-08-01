@@ -1,0 +1,3 @@
+# SQL-IEEE
+select CITY from STATION
+WHERE CITY REGEXP '^[aiuoe]';
